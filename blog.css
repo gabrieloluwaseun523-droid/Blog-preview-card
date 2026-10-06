@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    box-sizing: border-box;
+}
+.main{
+    background-color: hsl(0, 100%, 98%);
+    width: 350px;
+    height: auto;
+    border:1px solid black;
+    border-radius: 5%;
+    padding: 2%;
+    box-shadow:8px 8px 1px rgb(1, 1, 10) ;
+}
+.image{
+    width: 350px;
+    border-radius:5% ;
+    margin-bottom: 5%;
+}
+
+h4{
+    padding-left:3%;
+    font-family:  "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+h3{
+    padding-top: 5%;
+    width: 350px;
+    font-family:  "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+h5{
+    background-color: hsl(47, 88%, 63%);
+    width: 20%;
+    padding: 1%;
+    border-radius: 3px;
+    text-align: center;
+    font-family:  "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+p{
+    font-size: 16px;
+    width: 350px;
+    padding-top: 5%;
+    font-family:  "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.avater{
+    width: 35px;
+}
+.author{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 5%;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top:3%;
+    font-size: 0.6875rem;
+    text-align: center;
+}
+footer a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+@media (max-width:390px){
+    *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    background-color: hsl(0, 100%, 98%);
+    width: 250px;
+    height: auto;
+    border:1px solid black;
+    border-radius: 5%;
+    padding: 3%;
+}
+.image{
+    width: 250px;
+    border-radius:5% ;
+    margin-bottom: 5%;
+}
+
+h4{
+    padding-left:3%;
+}
+h3{
+    padding-top: 5%;
+    width: 250px;
+}
+h5{
+    background-color: hsl(47, 88%, 63%);
+    width: 25%;
+    padding: 1%;
+    border-radius: 3px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    width: 250px;
+    padding-top: 5%;
+}
+.avater{
+    width: 35px;
+}
+.author{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 5%;
+    text-align: center;
+}
+ footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;   
+    }
+    .attribution{
+        display: block;
+    }
+}
